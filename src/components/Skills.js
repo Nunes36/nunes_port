@@ -7,6 +7,8 @@ import meter3 from "../assets/img/tailwind.png";
 import meter4 from "../assets/img/javascript.png";
 import meter5 from "../assets/img/react.png";
 import meter6 from "../assets/img/nodejs.png";
+import meter7 from "../assets/img/java.png";
+import meter8 from "../assets/img/mysql.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -73,6 +75,16 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src={meter6} alt="image" />
                                     <h5>Node.Js</h5>
+                                </div>
+
+                                <div className="item">
+                                    <img src={meter7} alt="image" />
+                                    <h5>Java</h5>
+                                </div>
+
+                                <div className="item">
+                                    <img src={meter8} alt="image" />
+                                    <h5>MySQL</h5>
                                 </div>
                             </Carousel>       
                         </div>
