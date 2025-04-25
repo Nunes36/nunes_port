@@ -48,7 +48,9 @@ export const Projects = () => {
                         {({ isVisible }) => 
                         <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                             <h2>Projects</h2>
-                            <p>Descrição do projeto aqui.......................</p>
+                            <p>Aqui estão alguns dos projetos que desenvolvi com foco em soluções práticas, 
+                                código limpo e boas práticas de desenvolvimento. Cada projeto reflete minha 
+                                evolução como dev e meu compromisso com a entrega de valor real. Dê uma olhada!</p>
                             
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -77,8 +79,8 @@ export const Projects = () => {
                                             }
                                         </Row>
                                     </Tab.Pane>
-                                    <Tab.Pane eventKey="second"><p>Descrição</p></Tab.Pane>
-                                    <Tab.Pane eventKey="third"><p>Descrição</p></Tab.Pane>
+                                    <Tab.Pane eventKey="second"><p>Em breve</p></Tab.Pane>
+                                    <Tab.Pane eventKey="third"><p>Em breve</p></Tab.Pane>
                                 </Tab.Content>
                             </Tab.Container>
                         </div>}

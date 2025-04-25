@@ -59,7 +59,7 @@ export const Banner = () => {
                                 tecnologias, como Python, JavaScript (React, Next.js), C# e bancos de dados como MySQL Workbench,
                                     busco sempre integrar conhecimento técnico com design funcional, proporcionando experiências 
                                     de usuário excepcionais.</p>
-                                <button onClick={() => console.log('connect')}>Lets's connect<ArrowRightCircle size={25}/></button>
+                                <a href="https://wa.me/5511969312954" target="_blank"><button onClick={() => console.log('connect')}>Vamos Conversar<ArrowRightCircle size={25}/></button></a>
                             </div>}    
                         </TrackVisibility>
                     </Col>

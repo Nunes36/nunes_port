@@ -1,6 +1,6 @@
 import { Alert, Col, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import e from "cors";
+import cors from "cors";
 
 export const Newsletter = ({ onValidated, subscribe, status, message }) => {
     const [email, setEmail] = useState("");
@@ -27,7 +27,7 @@ export const Newsletter = ({ onValidated, subscribe, status, message }) => {
             <div className="newsletter-bx">
                 <Row>
                     <Col lg={12} md={6} xl={5}>
-                        <h3>Subscribe to our Newsletter</h3>
+                        <h3>Assine nossa Newsletter</h3>
                         {status === 'sending' && <Alert>Sending...</Alert>}
                         {status === 'error' && <Alert variant="danger">{message}</Alert>}
                         {status === 'success' && <Alert variant="success">{message}</Alert>}
