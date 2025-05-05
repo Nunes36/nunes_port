@@ -15,16 +15,19 @@ export const Projects = () => {
             title: "Dashboard",
             description: "Dashboard interativo que analisa os smartphones mais vendidos usando dados do Kaggle, com visualização em tempo real via gráficos dinâmicos.",
             imgUrl: projImg1,
+            url: "https://dashphones.vercel.app/"
         },
         {
             title: "Tamplate Grid",
             description: "Template moderno e responsivo para portfólios ou landing pages, com design clean e foco em usabilidade.",
             imgUrl: projImg2,
+            url: "https://templategrid-theta.vercel.app/"
         },
         {
             title: "Alura Books",
             description: "Projeto baseado no curso da Alura, recriando uma loja virtual de livros com design responsivo, foco em acessibilidade e navegação intuitiva",
             imgUrl: projImg3,
+            url: "https://alurabooksmf.vercel.app/"
         },
         // {
         //     title: "Business Startup",
