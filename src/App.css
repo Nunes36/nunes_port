@@ -51,6 +51,7 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+  color: #fff;
 }
 
 img {
