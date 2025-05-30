@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/theusprofile.jpg";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
 
@@ -55,10 +55,11 @@ export const Banner = () => {
                             <div className={isVisible ? "animated__animated animate__fadeIn" : ""}>
                                 <span className="tagline">Bem-vindo ao meu portfólio</span>
                                 <h1>{`Olá, sou Matheus Ferreira Desenvolvdor `}<span className="wrap">{text}</span></h1>
-                                <p>Sou apaixonado por criar soluções inovadoras e eficientes. Com experiência em diversas 
-                                tecnologias, como Python, JavaScript (React, Next.js), C# e bancos de dados como MySQL Workbench,
-                                    busco sempre integrar conhecimento técnico com design funcional, proporcionando experiências 
-                                    de usuário excepcionais.</p>
+                                <p> Profissional com sólida base em desenvolvimento web e back-end, com experiência prática em projetos
+                                    acadêmicos usando React, Python e Node.js. Tenho grande interesse por resolver problemas reais por meio
+                                    da tecnologia, sempre buscando entender o “porquê” por trás das soluções. Valorizo a clareza na
+                                    comunicação, o trabalho colaborativo e o aprendizado contínuo como parte essencial do crescimento
+                                    técnico e pessoal. Comprometido com a criação de soluções funcionais, bem estruturadas e sustentáveis.</p>
                                 <a href="https://wa.me/5511969312954" target="_blank"><button onClick={() => console.log('connect')}>Vamos Conversar<ArrowRightCircle size={25}/></button></a>
                             </div>}    
                         </TrackVisibility>

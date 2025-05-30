@@ -50,7 +50,7 @@ export const Projects = () => {
                     <TrackVisibility>
                         {({ isVisible }) => 
                         <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                            <h2>Projects</h2>
+                            <h2>Projetos</h2>
                             <p>Aqui estão alguns dos projetos que desenvolvi com foco em soluções práticas, 
                                 código limpo e boas práticas de desenvolvimento. Cada projeto reflete minha 
                                 evolução como dev e meu compromisso com a entrega de valor real. Dê uma olhada!</p>
