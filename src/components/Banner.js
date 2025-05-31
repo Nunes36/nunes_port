@@ -54,12 +54,9 @@ export const Banner = () => {
                         {({ isVisible }) =>
                             <div className={isVisible ? "animated__animated animate__fadeIn" : ""}>
                                 <span className="tagline">Bem-vindo ao meu portfólio</span>
-                                <h1>{`Olá, sou Matheus Ferreira Desenvolvdor `}<span className="wrap">{text}</span></h1>
-                                <p> Profissional com sólida base em desenvolvimento web e back-end, com experiência prática em projetos
-                                    acadêmicos usando React, Python e Node.js. Tenho grande interesse por resolver problemas reais por meio
-                                    da tecnologia, sempre buscando entender o “porquê” por trás das soluções. Valorizo a clareza na
-                                    comunicação, o trabalho colaborativo e o aprendizado contínuo como parte essencial do crescimento
-                                    técnico e pessoal. Comprometido com a criação de soluções funcionais, bem estruturadas e sustentáveis.</p>
+                                <h1>{`Olá, sou Matheus Ferreira Desenvolvedor `}<span className="wrap">{text}</span></h1>
+                                <p>Transformando ideias em soluções que geram valor e resultados reais para negócios e pessoas
+                                   através da programação.</p>
                                 <a href="https://wa.me/5511969312954" target="_blank"><button onClick={() => console.log('connect')}>Vamos Conversar<ArrowRightCircle size={25}/></button></a>
                             </div>}    
                         </TrackVisibility>
