@@ -237,6 +237,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 320px 0 100px 0;
   background-color: #121212; /*mudança de fundo*/
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -283,6 +284,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
   border-radius: 300px;
+  width: 350px;
 }
 @keyframes updown {
     0% {
