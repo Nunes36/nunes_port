@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logoatt.png';
+import logo from '../assets/img/logosite2.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/icon-git2.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://github.com/nunes36" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/nunes_developer" target="_blank"><img src={navIcon3} alt="" /></a>
               </div>
-              <a href="https://wa.me/5511969312954" target="_blank"><button className="vvd"><span>Vamos Conversar</span></button></a>
+              <a href="https://wa.me/5511967126995" target="_blank"><button className="vvd"><span>Vamos Conversar</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>
