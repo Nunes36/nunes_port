@@ -1,74 +1,75 @@
-HEAD
-# nunes_port
+# 💻 Meu Portfólio Pessoal
 
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://shields.io" alt="React" />
+  <img src="https://shields.io" alt="JavaScript" />
+  <img src="https://shields.io" alt="CSS3" />
+  <img src="https://shields.io" alt="Bootstrap" />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório do meu portfólio pessoal. Uma aplicação web moderna desenvolvida para apresentar minha trajetória, minhas principais habilidades técnicas e os projetos que desenvolvi ao longo da minha jornada como desenvolvedor.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- **Apresentação Impactante:** Seção de banner interativa com efeito de digitação (*typing effect*).
+- **Galeria de Projetos:** Exibição organizada dos meus principais trabalhos com cards responsivos.
+- **Lista de Habilidades:** Demonstração visual das tecnologias com as quais tenho experiência.
+- **Formulário de Contato / Newsletter:** Canal direto para potenciais clientes e recrutadores entrarem em contato comigo.
+- **Design Responsivo:** Totalmente adaptado para dispositivos móveis, tablets e desktops.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+O projeto foi construído utilizando o ecossistema moderno do ecossistema do React:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** – Biblioteca principal para construção da interface baseada em componentes.
+- **JavaScript (ES6+)** – Lógica de programação e manipulação de estado.
+- **Bootstrap / React-Bootstrap** – Framework de estilização para garantir um layout fluido e responsivo.
+- **CSS3** – Estilizações personalizadas e animações sob medida.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Como Executar o Projeto Localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para clonar e executar esta aplicação em sua máquina, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org) instalados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com
+   ```
 
-### `npm run eject`
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd nunes_port
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm start
+   ```
+   A aplicação será aberta automaticamente no seu navegador pelo endereço `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Para gerar a versão de produção (Build):**
+   ```bash
+   npm run build
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📬 Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Se você gostou do meu trabalho ou deseja conversar sobre alguma oportunidade de projeto, sinta-se à vontade para me mandar uma mensagem!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **GitHub:** [Nunes36](https://github.com)
+- **LinkedIn:** [Seu Nome ou Link do LinkedIn] *(Dica: substitua por seu link)*
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 8de746c (primeiro_commit)
+---
+<p align="center">Desenvolvido com 💙 por Nunes</p>
