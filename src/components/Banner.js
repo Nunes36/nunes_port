@@ -57,9 +57,13 @@ export const Banner = () => {
                                 <h1>{`Olá, sou Matheus Ferreira Desenvolvedor `}<span className="wrap">{text}</span></h1>
                                 <p>Transformando ideias em soluções que geram valor e resultados reais para negócios e pessoas
                                    através da programação.</p>
+
                                 <a href="https://wa.me/5511967126995" target="_blank" rel="noopener noreferrer">
                                     <button onClick={() => console.log('connect')}>Vamos Conversar<ArrowRightCircle size={25}/></button>
                                 </a>
+
+
+
                             </div>}    
                         </TrackVisibility>
                     </Col>
