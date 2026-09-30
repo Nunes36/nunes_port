@@ -17,13 +17,13 @@ export const Banner = () => {
     useEffect(() => {
         let ticker = setInterval(() => {
             tick();
-        },delta,[tick] );
+        },delta,[] );
 
         return () => {clearInterval(ticker)};
-    }, [text,delta]);
+    });
 
     const tick = () => {
-        let safeText = text || '';
+        // let safeText = text || '';
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
