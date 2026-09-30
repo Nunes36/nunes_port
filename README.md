@@ -68,8 +68,8 @@ Para clonar e executar esta aplicação em sua máquina, você precisará do [Gi
 
 Se você gostou do meu trabalho ou deseja conversar sobre alguma oportunidade de projeto, sinta-se à vontade para me mandar uma mensagem!
 
-- **GitHub:** [Nunes36](https://github.com)
-- **LinkedIn:** [Seu Nome ou Link do LinkedIn] *(Dica: substitua por seu link)*
+- **GitHub:** https://github.com/Nunes36
+- **LinkedIn:**  www.linkedin.com/in/matheus-ferreira36
 
 ---
 <p align="center">Desenvolvido com 💙 por Nunes</p>
