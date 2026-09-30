@@ -1,6 +1,6 @@
 import { Alert, Col, Row } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import cors from "cors";
+//import cors from "cors";
 
 export const Newsletter = ({ onValidated, subscribe, status, message }) => {
     const [email, setEmail] = useState("");

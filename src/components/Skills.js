@@ -48,42 +48,42 @@ export const Skills = () => {
                                 ferramentas como GitHub e Vercel.</p> 
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="image" />
+                                    <img src={meter1} alt="icone python" />
                                     <h5>Python</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter2} alt="image" />
+                                    <img src={meter2} alt="icone typescript" />
                                     <h5>Typescript</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter3} alt="image" />
+                                    <img src={meter3} alt="icone tailwind" />
                                     <h5>Tailwind</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter4} alt="image" />
+                                    <img src={meter4} alt="icone javascript" />
                                     <h5>Javascript</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter5} alt="image" />
+                                    <img src={meter5} alt="icone react" />
                                     <h5>React</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter6} alt="image" />
+                                    <img src={meter6} alt="icone node.js" />
                                     <h5>Node.Js</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter7} alt="image" />
+                                    <img src={meter7} alt="icone java" />
                                     <h5>Java</h5>
                                 </div>
 
                                 <div className="item">
-                                    <img src={meter8} alt="image" />
+                                    <img src={meter8} alt="icone mysql" />
                                     <h5>MySQL</h5>
                                 </div>
                             </Carousel>       
@@ -91,7 +91,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="Background" />
         </section>
       );
 }

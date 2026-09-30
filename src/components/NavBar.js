@@ -51,11 +51,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/matheus-ferreira36/" target="_blank"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/nunes36" target="_blank"><img src={navIcon2} alt="" /></a>
-                <a href="https://www.instagram.com/nunes_developer" target="_blank"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/matheus-ferreira36/" target="_blank" without rel="noopener noreferrer"><img src={navIcon1} alt="icone linkedin" /></a>
+                <a href="https://github.com/nunes36" target="_blank" without rel="noopener noreferrer"><img src={navIcon2} alt="icone github" /></a>
+                <a href="https://www.instagram.com/nunes_developer" target="_blank" without rel="noopener noreferrer"><img src={navIcon3} alt="icone instagram" /></a>
               </div>
-              <a href="https://wa.me/5511967126995" target="_blank"><button className="vvd"><span>Vamos Conversar</span></button></a>
+              <a href="https://wa.me/5511967126995" target="_blank" without rel="noopener noreferrer"><button className="vvd"><span>Vamos Conversar</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>
