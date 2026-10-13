@@ -1,13 +1,15 @@
 import { Container, Col, Tab, Nav, Row } from "react-bootstrap";
 import { ProjectsCard } from "./ProjectsCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/dashboard-img1.jpg";
-import projImg2 from "../assets/img/Lp-img2.jpg";
-import projImg3 from "../assets/img/aluraBooks-img3.jpg";
-import projImg4 from "../assets/img/Alura-LP.jpg";
-import projImg5 from "../assets/img/AndreaLp.jpg";
-import projImg6 from "../assets/img/Sunnyside-Lp.jpg";
-import projImg7 from "../assets/img/pageNext.jpg";
+import projImg1 from "../assets/img/gameNav.jpg";
+import projImg2 from "../assets/img/gamePong.jpg";
+import projImg3 from "../assets/img/dashboard-img1.jpg";
+import projImg4 from "../assets/img/Lp-img2.jpg";
+import projImg5 from "../assets/img/aluraBooks-img3.jpg";
+import projImg6 from "../assets/img/Alura-LP.jpg";
+import projImg7 from "../assets/img/AndreaLp.jpg";
+import projImg8 from "../assets/img/Sunnyside-Lp.jpg";
+import projImg9 from "../assets/img/pageNext.jpg";
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
@@ -16,48 +18,61 @@ export const Projects = () => {
 
     const projectsTabOne = [
         {
+            title: "Game Nav",
+            description: "Desenvolvimento de um site de jogos com foco em design responsivo.",
+            imgUrl: projImg1        ,
+            url: "https://gamenave.vercel.app/"
+        },
+        {
+            title: "Jogo Pong",
+            description: "Desenvolvimento de um jogo clássico Pong com foco em design responsivo e jogabilidade intuitiva.",
+            imgUrl: projImg2,
+            url: "https://jogopong-pi.vercel.app/"
+        },
+        {
             title: "Dashboard",
             description: "Dashboard interativo que analisa os smartphones mais vendidos usando dados do Kaggle, com visualização em tempo real via gráficos dinâmicos.",
-            imgUrl: projImg1,
+            imgUrl: projImg3,
             url: "https://dashphones.vercel.app/"
         },
         {
             title: "Tamplate Grid",
             description: "Template moderno e responsivo para portfólios ou landing pages, com design clean e foco em usabilidade.",
-            imgUrl: projImg2,
+            imgUrl: projImg4,
             url: "https://templategrid-theta.vercel.app/"
         },
         {
             title: "Alura Books",
             description: "Desenvolvimento de uma loja virtual de livros com ênfase em design responsivo, usabilidade, acessibilidade e navegação intuitiva.",
-            imgUrl: projImg3,
+            imgUrl: projImg5,
             url: "https://alurabooksmf.vercel.app/"
         },
         {
             title: "Combo + Alura",
             description: "Landing page promocional do Combo+, destacando uma oferta especial da Alura: ao se inscrever em um dos cursos da plataforma, o usuário ganha acesso a um curso de inglês.",
-            imgUrl: projImg4,
+            imgUrl: projImg6,
             url: "https://exemploalura.vercel.app/"
         },
-        {
-            title: "Andrea Drummont",
-            description: "Landing page desenvolvida para apresentar o portfólio e os serviços de uma designer gráfica, com foco em identidade visual, responsividade e navegação intuitiva.",
-            imgUrl: projImg5,
-            url: "https://andrea-drummont.vercel.app/"
-        },
-        {
-            title: "Sunnyside",
-            description: "Landing page responsiva desenvolvida para a Sunnyside Agency, com foco em design visual impactante, performance e usabilidade",
-            imgUrl: projImg6,
-            url: "https://sunnyside-kappa-murex.vercel.app/"
-        },   
+        
     ];
 
     const projectsTabTwo = [
         {
+            title: "Sunnyside",
+            description: "Landing page responsiva desenvolvida para a Sunnyside Agency, com foco em design visual impactante, performance e usabilidade",
+            imgUrl: projImg8,
+            url: "https://sunnyside-kappa-murex.vercel.app/"
+        },  
+        {
+            title: "Andrea Drummont",
+            description: "Landing page desenvolvida para apresentar o portfólio e os serviços de uma designer gráfica, com foco em identidade visual, responsividade e navegação intuitiva.",
+            imgUrl: projImg7,
+            url: "https://andrea-drummont.vercel.app/"
+        },
+        {
             title: "Page Next",
             description: "Painel financeiro full-stack desenvolvido com Next.js, Tailwind CSS e PostgreSQL. Inclui autenticação, gerenciamento de faturas e interface responsiva. (Em Construção)",
-            imgUrl: projImg7,
+            imgUrl: projImg9,
             url: "https://nextjs-dashboard-snowy-eight-21.vercel.app/"
         },
     ];
